@@ -1,0 +1,54 @@
+{
+  "name": "body-parser",
+  "description": "package.json upgraded and test run on window",
+  "version": "1.18.3",
+  "contributors": [
+    "Douglas Christopher Wilson <doug@somethingdoug.com>",
+    "Jonathan Ong <me@jongleberry.com> (http://jongleberry.com)"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bill1812/body-parser.git"
+  },
+  "dependencies": {
+    "bytes": "3.0.0",
+    "content-type": "~1.0.4",
+    "debug": "4.1.1",
+    "depd": "~1.1.2",
+    "http-errors": "~1.7.1",
+    "iconv-lite": "0.4.24",
+    "on-finished": "~2.3.0",
+    "qs": "6.6.0",
+    "raw-body": "2.3.3",
+    "type-is": "~1.6.16"
+  },
+  "devDependencies": {
+    "eslint": "5.12.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-markdown": "1.0.0",
+    "eslint-plugin-node": "8.0.1",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0",
+    "methods": "1.1.2",
+    "mocha": "^5.2.0",
+    "safe-buffer": "5.1.2",
+    "supertest": "1.2.0"
+  },
+  "files": [
+    "lib/",
+    "LICENSE",
+    "HISTORY.md",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">= 8.14.0"
+  },
+  "scripts": {
+    "lint": "eslint --plugin markdown --ext js .",
+    "test": "mocha --require test/support/env --reporter spec --check-leaks --bail test/",
+    "test-cov": "istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/",
+    "test-travis": "istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/"
+  }
+}

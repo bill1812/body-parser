@@ -1,0 +1,10 @@
+node_modules/
+cache/
+tmp/
+coverage/
+
+package-lock.json
+.npmrc
+*.orig
+*.zip
+*.doc

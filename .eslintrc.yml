@@ -1,0 +1,20 @@
+root: true
+extends: 'eslint:recommended'
+rules:
+  block-spacing:           [ 2, 'always' ]
+  brace-style:             [ 2, '1tbs', { 'allowSingleLine': false }]
+  comma-style:             [ 2, 'last' ]
+  curly:                   [ 2, 'all' ]
+  dot-location:            [ 2, 'property' ]
+  global-require:          1
+  linebreak-style:         [ 2, 'windows' ]
+  multiline-comment-style: [ 2, 'starred-block' ]
+  no-multiple-empty-lines: [ 2, { 'max': 1, 'maxBOF': 0, 'maxEOF': 1 }]
+  no-param-reassign:       1
+  no-undef:                [ 1, { 'typeof': true }]
+  no-unused-vars:          [ 1, { 'vars': 'local', 'args': 'after-used', 'ignoreRestSiblings': false }]
+  semi:                    [ 2, 'always' ]
+  semi-spacing:            [ 2, { 'before': false, 'after': true }]
+  space-before-blocks:     [ 2, 'always' ]
+  space-before-function-paren: [ 2, { 'anonymous': 'always', 'named': 'never', 'asyncArrow': 'always' }]
+  spaced-comment:          [ 2, 'always' ]

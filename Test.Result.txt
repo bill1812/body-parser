@@ -1,0 +1,781 @@
+
+\body-parser>npm run lint
+
+> body-parser@1.18.3 lint \body-parser
+> eslint --plugin markdown --ext js .
+
+\body-parser\index.js
+   11:17  warning  'require' is not defined  no-undef
+   26:1   warning  'exports' is not defined  no-undef
+   26:11  warning  'module' is not defined   no-undef
+   29:23  warning  'exports' is not defined  no-undef
+   36:23  warning  'exports' is not defined  no-undef
+   43:23  warning  'exports' is not defined  no-undef
+   50:23  warning  'exports' is not defined  no-undef
+   76:21  warning  'exports' is not defined  no-undef
+   77:15  warning  'exports' is not defined  no-undef
+  107:16  warning  Unexpected require()      global-require
+  107:16  warning  'require' is not defined  no-undef
+  110:16  warning  Unexpected require()      global-require
+  110:16  warning  'require' is not defined  no-undef
+  113:16  warning  Unexpected require()      global-require
+  113:16  warning  'require' is not defined  no-undef
+  116:16  warning  Unexpected require()      global-require
+  116:16  warning  'require' is not defined  no-undef
+
+\body-parser\lib\read.js
+  11:19  warning  'require' is not defined  no-undef
+  12:15  warning  'require' is not defined  no-undef
+  13:13  warning  'require' is not defined  no-undef
+  14:18  warning  'require' is not defined  no-undef
+  15:12  warning  'require' is not defined  no-undef
+  18:1   warning  'module' is not defined   no-undef
+
+\body-parser\lib\types\json.js
+  12:13  warning  'require' is not defined  no-undef
+  13:19  warning  'require' is not defined  no-undef
+  14:19  warning  'require' is not defined  no-undef
+  15:13  warning  'require' is not defined  no-undef
+  16:12  warning  'require' is not defined  no-undef
+  17:14  warning  'require' is not defined  no-undef
+  20:1   warning  'module' is not defined   no-undef
+
+\body-parser\lib\types\raw.js
+  11:13  warning  'require' is not defined  no-undef
+  12:13  warning  'require' is not defined  no-undef
+  13:13  warning  'require' is not defined  no-undef
+  14:14  warning  'require' is not defined  no-undef
+  17:1   warning  'module' is not defined   no-undef
+
+\body-parser\lib\types\text.js
+  11:13  warning  'require' is not defined  no-undef
+  12:19  warning  'require' is not defined  no-undef
+  13:13  warning  'require' is not defined  no-undef
+  14:12  warning  'require' is not defined  no-undef
+  15:14  warning  'require' is not defined  no-undef
+  18:1   warning  'module' is not defined   no-undef
+
+\body-parser\lib\types\urlencoded.js
+   12:13  warning  'require' is not defined  no-undef
+   13:19  warning  'require' is not defined  no-undef
+   14:19  warning  'require' is not defined  no-undef
+   15:13  warning  'require' is not defined  no-undef
+   16:17  warning  'require' is not defined  no-undef
+   17:12  warning  'require' is not defined  no-undef
+   18:14  warning  'require' is not defined  no-undef
+   21:1   warning  'module' is not defined   no-undef
+  195:13  warning  'require' is not defined  no-undef
+  195:13  warning  Unexpected require()      global-require
+  198:13  warning  Unexpected require()      global-require
+  198:13  warning  'require' is not defined  no-undef
+
+\body-parser\test\body-parser.js
+  1:12  warning  'require' is not defined  no-undef
+  2:15  warning  'require' is not defined  no-undef
+  3:15  warning  'require' is not defined  no-undef
+  5:18  warning  'require' is not defined  no-undef
+
+\body-parser\test\json.js
+    1:14  warning  'require' is not defined         no-undef
+    2:14  warning  'require' is not defined         no-undef
+    3:12  warning  'require' is not defined         no-undef
+    4:15  warning  'require' is not defined         no-undef
+    6:18  warning  'require' is not defined         no-undef
+  364:25  warning  'req' is defined but never used  no-unused-vars
+  376:25  warning  'req' is defined but never used  no-unused-vars
+  500:52  warning  'req' is defined but never used  no-unused-vars
+  500:57  warning  'res' is defined but never used  no-unused-vars
+  500:62  warning  'buf' is defined but never used  no-unused-vars
+
+\body-parser\test\raw.js
+    1:14  warning  'require' is not defined         no-undef
+    2:14  warning  'require' is not defined         no-undef
+    3:12  warning  'require' is not defined         no-undef
+    4:15  warning  'require' is not defined         no-undef
+    6:18  warning  'require' is not defined         no-undef
+  222:25  warning  'req' is defined but never used  no-unused-vars
+  234:25  warning  'req' is defined but never used  no-unused-vars
+
+\body-parser\test\support\env.js
+  1:1  warning  'process' is not defined  no-undef
+
+\body-parser\test\text.js
+    1:14  warning  'require' is not defined         no-undef
+    2:14  warning  'require' is not defined         no-undef
+    3:12  warning  'require' is not defined         no-undef
+    4:15  warning  'require' is not defined         no-undef
+    6:18  warning  'require' is not defined         no-undef
+  245:25  warning  'req' is defined but never used  no-unused-vars
+  257:25  warning  'req' is defined but never used  no-unused-vars
+  320:52  warning  'req' is defined but never used  no-unused-vars
+  320:57  warning  'res' is defined but never used  no-unused-vars
+  320:62  warning  'buf' is defined but never used  no-unused-vars
+
+\body-parser\test\urlencoded.js
+    1:14  warning  'require' is not defined         no-undef
+    2:14  warning  'require' is not defined         no-undef
+    3:12  warning  'require' is not defined         no-undef
+    4:15  warning  'require' is not defined         no-undef
+    6:18  warning  'require' is not defined         no-undef
+  495:25  warning  'req' is defined but never used  no-unused-vars
+  507:25  warning  'req' is defined but never used  no-unused-vars
+  603:52  warning  'req' is defined but never used  no-unused-vars
+  603:57  warning  'res' is defined but never used  no-unused-vars
+  603:62  warning  'buf' is defined but never used  no-unused-vars
+
+✖ 95 problems (0 errors, 95 warnings)
+
+***
+
+\body-parser>npm run test
+
+> body-parser@1.18.3 test \body-parser
+> mocha --require test/support/env --reporter spec --check-leaks --bail test/
+
+  bodyParser()
+    √ should default to {} (49ms)
+    √ should parse JSON
+    √ should parse x-www-form-urlencoded
+    √ should handle duplicated middleware
+    http methods
+      √ should support ACL requests
+      √ should support BIND requests
+      √ should support CHECKOUT requests
+      √ should support COPY requests
+      √ should support DELETE requests
+      √ should support GET requests
+      √ should support HEAD requests
+      √ should support LINK requests
+      √ should support LOCK requests
+      √ should support M-SEARCH requests
+      √ should support MERGE requests
+      √ should support MKACTIVITY requests
+      √ should support MKCALENDAR requests
+      √ should support MKCOL requests
+      √ should support MOVE requests
+      √ should support NOTIFY requests
+      √ should support OPTIONS requests
+      √ should support PATCH requests
+      √ should support POST requests
+      √ should support PROPFIND requests
+      √ should support PROPPATCH requests
+      √ should support PURGE requests
+      √ should support PUT requests
+      √ should support REBIND requests
+      √ should support REPORT requests
+      √ should support SEARCH requests
+      √ should support SOURCE requests
+      √ should support SUBSCRIBE requests
+      √ should support TRACE requests
+      √ should support UNBIND requests
+      √ should support UNLINK requests
+      √ should support UNLOCK requests
+      √ should support UNSUBSCRIBE requests
+    with type option
+      √ should parse JSON
+      √ should parse x-www-form-urlencoded
+    with verify option
+      √ should apply to json
+      √ should apply to urlencoded
+
+  bodyParser.json()
+    √ should parse JSON
+    √ should handle Content-Length: 0
+    √ should handle empty message-body
+    √ should handle no message-body
+    √ should 400 when invalid content-length
+    √ should handle duplicated middleware
+    when JSON is invalid
+      √ should 400 for bad token
+      √ should 400 for incomplete
+      √ should error with type = "entity.parse.failed"
+      √ should include original body on error object
+    with limit option
+      √ should 413 when over limit with Content-Length
+      √ should error with type = "entity.too.large"
+      √ should 413 when over limit with chunked encoding
+      √ should accept number of bytes
+      √ should not change when options altered
+      √ should not hang response
+    with inflate option
+      when false
+        √ should not accept content-encoding
+      when true
+        √ should accept content-encoding
+    with strict option
+      when undefined
+        √ should 400 on primitives
+      when false
+        √ should parse primitives
+      when true
+        √ should not parse primitives
+        √ should not parse primitives with leading whitespaces
+        √ should allow leading whitespaces in JSON
+        √ should error with type = "entity.parse.failed"
+        √ should include correct message in stack trace
+    with type option
+      when "application/vnd.api+json"
+        √ should parse JSON for custom type
+        √ should ignore standard type
+      when ["application/json", "application/vnd.api+json"]
+        √ should parse JSON for "application/json"
+        √ should parse JSON for "application/vnd.api+json"
+        √ should ignore "application/x-json"
+      when a function
+        √ should parse when truthy value returned
+        √ should work without content-type
+        √ should not invoke without a body
+    with verify option
+      √ should assert value if function
+      √ should error from verify
+      √ should error with type = "entity.verify.failed"
+      √ should allow custom codes
+      √ should allow custom type
+      √ should include original body on error object
+      √ should allow pass-through
+      √ should work with different charsets
+      √ should 415 on unknown charset prior to verify
+    charset
+      √ should parse utf-8
+      √ should parse utf-16
+      √ should parse when content-length != char length
+      √ should default to utf-8
+      √ should fail on unknown charset
+      √ should error with type = "charset.unsupported"
+    encoding
+      √ should parse without encoding
+      √ should support identity encoding
+      √ should support gzip encoding
+      √ should support deflate encoding
+      √ should be case-insensitive
+      √ should 415 on unknown encoding
+      √ should error with type = "encoding.unsupported"
+      √ should 400 on malformed encoding
+      √ should 413 when inflated value exceeds limit
+
+  bodyParser.raw()
+    √ should parse application/octet-stream
+    √ should 400 when invalid content-length
+    √ should handle Content-Length: 0
+    √ should handle empty message-body
+    √ should handle duplicated middleware
+    with limit option
+      √ should 413 when over limit with Content-Length
+      √ should 413 when over limit with chunked encoding
+      √ should accept number of bytes
+      √ should not change when options altered
+      √ should not hang response
+    with inflate option
+      when false
+        √ should not accept content-encoding
+      when true
+        √ should accept content-encoding
+    with type option
+      when "application/vnd+octets"
+        √ should parse for custom type
+        √ should ignore standard type
+      when ["application/octet-stream", "application/vnd+octets"]
+        √ should parse "application/octet-stream"
+        √ should parse "application/vnd+octets"
+        √ should ignore "application/x-foo"
+      when a function
+        √ should parse when truthy value returned
+        √ should work without content-type
+        √ should not invoke without a body
+    with verify option
+      √ should assert value is function
+      √ should error from verify
+      √ should allow custom codes
+      √ should allow pass-through
+    charset
+      √ should ignore charset
+    encoding
+      √ should parse without encoding
+      √ should support identity encoding
+      √ should support gzip encoding
+      √ should support deflate encoding
+      √ should be case-insensitive
+      √ should fail on unknown encoding
+
+  bodyParser.text()
+    √ should parse text/plain
+    √ should 400 when invalid content-length
+    √ should handle Content-Length: 0
+    √ should handle empty message-body
+    √ should handle duplicated middleware
+    with defaultCharser option
+      √ should change default charset
+      √ should honor content-type charset
+    with limit option
+      √ should 413 when over limit with Content-Length
+      √ should 413 when over limit with chunked encoding
+      √ should accept number of bytes
+      √ should not change when options altered
+      √ should not hang response
+    with inflate option
+      when false
+        √ should not accept content-encoding
+      when true
+        √ should accept content-encoding
+    with type option
+      when "text/html"
+        √ should parse for custom type
+        √ should ignore standard type
+      when ["text/html", "text/plain"]
+        √ should parse "text/html"
+        √ should parse "text/plain"
+        √ should ignore "text/xml"
+      when a function
+        √ should parse when truthy value returned
+        √ should work without content-type
+        √ should not invoke without a body
+    with verify option
+      √ should assert value is function
+      √ should error from verify
+      √ should allow custom codes
+      √ should allow pass-through
+      √ should 415 on unknown charset prior to verify
+    charset
+      √ should parse utf-8
+      √ should parse codepage charsets
+      √ should parse when content-length != char length
+      √ should default to utf-8
+      √ should 415 on unknown charset
+    encoding
+      √ should parse without encoding
+      √ should support identity encoding
+      √ should support gzip encoding
+      √ should support deflate encoding
+      √ should be case-insensitive
+      √ should fail on unknown encoding
+
+  bodyParser.urlencoded()
+    √ should parse x-www-form-urlencoded
+    √ should 400 when invalid content-length
+    √ should handle Content-Length: 0
+    √ should handle empty message-body
+    √ should handle duplicated middleware
+    √ should parse extended syntax
+    with extended option
+      when false
+        √ should not parse extended syntax
+        √ should parse multiple key instances
+      when true
+        √ should parse multiple key instances
+        √ should parse extended syntax
+        √ should parse parameters with dots
+        √ should parse fully-encoded extended syntax
+        √ should parse array index notation
+        √ should parse array index notation with large array
+        √ should parse array of objects syntax
+        √ should parse deep object
+    with inflate option
+      when false
+        √ should not accept content-encoding
+      when true
+        √ should accept content-encoding
+    with limit option
+      √ should 413 when over limit with Content-Length
+      √ should 413 when over limit with chunked encoding
+      √ should accept number of bytes
+      √ should not change when options altered
+      √ should not hang response
+    with parameterLimit option
+      with extended: false
+        √ should reject 0
+        √ should reject string
+        √ should 413 if over limit
+        √ should error with type = "parameters.too.many"
+        √ should work when at the limit
+        √ should work if number is floating point
+        √ should work with large limit (42ms)
+        √ should work with Infinity limit (81ms)
+      with extended: true
+        √ should reject 0
+        √ should reject string
+        √ should 413 if over limit
+        √ should error with type = "parameters.too.many"
+        √ should work when at the limit
+        √ should work if number is floating point
+        √ should work with large limit (108ms)
+        √ should work with Infinity limit (203ms)
+    with type option
+      when "application/vnd.x-www-form-urlencoded"
+        √ should parse for custom type
+        √ should ignore standard type
+      when ["urlencoded", "application/x-pairs"]
+        √ should parse "application/x-www-form-urlencoded"
+        √ should parse "application/x-pairs"
+        √ should ignore application/x-foo
+      when a function
+        √ should parse when truthy value returned
+        √ should work without content-type
+        √ should not invoke without a body
+    with verify option
+      √ should assert value if function
+      √ should error from verify
+      √ should error with type = "entity.verify.failed"
+      √ should allow custom codes
+      √ should allow custom type
+      √ should allow pass-through
+      √ should 415 on unknown charset prior to verify
+    charset
+      √ should parse utf-8
+      √ should parse when content-length != char length
+      √ should default to utf-8
+      √ should fail on unknown charset
+    encoding
+      √ should parse without encoding
+      √ should support identity encoding
+      √ should support gzip encoding
+      √ should support deflate encoding
+      √ should be case-insensitive
+      √ should fail on unknown encoding
+
+
+  231 passing (2s)
+
+***
+
+\body-parser>npm run test-cov
+
+> body-parser@1.18.3 test-cov \body-parser
+> istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/
+
+  .......................................................................................................................................................................................................................................
+
+  231 passing (2s)
+
+=============================================================================
+Writing coverage object [\body-parser\coverage\coverage.json]
+Writing coverage reports at [\body-parser\coverage]
+=============================================================================
+
+=============================== Coverage summary ===============================
+Statements   : 99.72% ( 359/360 ), 1 ignored
+Branches     : 99.51% ( 202/203 )
+Functions    : 100% ( 42/42 )
+Lines        : 99.72% ( 358/359 )
+================================================================================
+
+***
+
+\body-parser>npm run test-travis
+
+> body-parser@1.18.3 test-travis \body-parser
+> istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/
+
+  bodyParser()
+    √ should default to {} (40ms)
+    √ should parse JSON
+    √ should parse x-www-form-urlencoded
+    √ should handle duplicated middleware
+    http methods
+      √ should support ACL requests
+      √ should support BIND requests
+      √ should support CHECKOUT requests
+      √ should support COPY requests
+      √ should support DELETE requests
+      √ should support GET requests
+      √ should support HEAD requests
+      √ should support LINK requests
+      √ should support LOCK requests
+      √ should support M-SEARCH requests
+      √ should support MERGE requests
+      √ should support MKACTIVITY requests
+      √ should support MKCALENDAR requests
+      √ should support MKCOL requests
+      √ should support MOVE requests
+      √ should support NOTIFY requests
+      √ should support OPTIONS requests
+      √ should support PATCH requests
+      √ should support POST requests
+      √ should support PROPFIND requests
+      √ should support PROPPATCH requests
+      √ should support PURGE requests
+      √ should support PUT requests
+      √ should support REBIND requests
+      √ should support REPORT requests
+      √ should support SEARCH requests
+      √ should support SOURCE requests
+      √ should support SUBSCRIBE requests
+      √ should support TRACE requests
+      √ should support UNBIND requests
+      √ should support UNLINK requests
+      √ should support UNLOCK requests
+      √ should support UNSUBSCRIBE requests
+    with type option
+      √ should parse JSON
+      √ should parse x-www-form-urlencoded
+    with verify option
+      √ should apply to json
+      √ should apply to urlencoded
+
+  bodyParser.json()
+    √ should parse JSON
+    √ should handle Content-Length: 0
+    √ should handle empty message-body
+    √ should handle no message-body
+    √ should 400 when invalid content-length
+    √ should handle duplicated middleware
+    when JSON is invalid
+      √ should 400 for bad token
+      √ should 400 for incomplete
+      √ should error with type = "entity.parse.failed"
+      √ should include original body on error object
+    with limit option
+      √ should 413 when over limit with Content-Length
+      √ should error with type = "entity.too.large"
+      √ should 413 when over limit with chunked encoding
+      √ should accept number of bytes
+      √ should not change when options altered
+      √ should not hang response
+    with inflate option
+      when false
+        √ should not accept content-encoding
+      when true
+        √ should accept content-encoding
+    with strict option
+      when undefined
+        √ should 400 on primitives
+      when false
+        √ should parse primitives
+      when true
+        √ should not parse primitives
+        √ should not parse primitives with leading whitespaces
+        √ should allow leading whitespaces in JSON
+        √ should error with type = "entity.parse.failed"
+        √ should include correct message in stack trace
+    with type option
+      when "application/vnd.api+json"
+        √ should parse JSON for custom type
+        √ should ignore standard type
+      when ["application/json", "application/vnd.api+json"]
+        √ should parse JSON for "application/json"
+        √ should parse JSON for "application/vnd.api+json"
+        √ should ignore "application/x-json"
+      when a function
+        √ should parse when truthy value returned
+        √ should work without content-type
+        √ should not invoke without a body
+    with verify option
+      √ should assert value if function
+      √ should error from verify
+      √ should error with type = "entity.verify.failed"
+      √ should allow custom codes
+      √ should allow custom type
+      √ should include original body on error object
+      √ should allow pass-through
+      √ should work with different charsets
+      √ should 415 on unknown charset prior to verify
+    charset
+      √ should parse utf-8
+      √ should parse utf-16
+      √ should parse when content-length != char length
+      √ should default to utf-8
+      √ should fail on unknown charset
+      √ should error with type = "charset.unsupported"
+    encoding
+      √ should parse without encoding
+      √ should support identity encoding
+      √ should support gzip encoding
+      √ should support deflate encoding
+      √ should be case-insensitive
+      √ should 415 on unknown encoding
+      √ should error with type = "encoding.unsupported"
+      √ should 400 on malformed encoding
+      √ should 413 when inflated value exceeds limit
+
+  bodyParser.raw()
+    √ should parse application/octet-stream
+    √ should 400 when invalid content-length
+    √ should handle Content-Length: 0
+    √ should handle empty message-body
+    √ should handle duplicated middleware
+    with limit option
+      √ should 413 when over limit with Content-Length
+      √ should 413 when over limit with chunked encoding
+      √ should accept number of bytes
+      √ should not change when options altered
+      √ should not hang response
+    with inflate option
+      when false
+        √ should not accept content-encoding
+      when true
+        √ should accept content-encoding
+    with type option
+      when "application/vnd+octets"
+        √ should parse for custom type
+        √ should ignore standard type
+      when ["application/octet-stream", "application/vnd+octets"]
+        √ should parse "application/octet-stream"
+        √ should parse "application/vnd+octets"
+        √ should ignore "application/x-foo"
+      when a function
+        √ should parse when truthy value returned
+        √ should work without content-type
+        √ should not invoke without a body
+    with verify option
+      √ should assert value is function
+      √ should error from verify
+      √ should allow custom codes
+      √ should allow pass-through
+    charset
+      √ should ignore charset
+    encoding
+      √ should parse without encoding
+      √ should support identity encoding
+      √ should support gzip encoding
+      √ should support deflate encoding
+      √ should be case-insensitive
+      √ should fail on unknown encoding
+
+  bodyParser.text()
+    √ should parse text/plain
+    √ should 400 when invalid content-length
+    √ should handle Content-Length: 0
+    √ should handle empty message-body
+    √ should handle duplicated middleware
+    with defaultCharser option
+      √ should change default charset
+      √ should honor content-type charset
+    with limit option
+      √ should 413 when over limit with Content-Length
+      √ should 413 when over limit with chunked encoding
+      √ should accept number of bytes
+      √ should not change when options altered
+      √ should not hang response
+    with inflate option
+      when false
+        √ should not accept content-encoding
+      when true
+        √ should accept content-encoding
+    with type option
+      when "text/html"
+        √ should parse for custom type
+        √ should ignore standard type
+      when ["text/html", "text/plain"]
+        √ should parse "text/html"
+        √ should parse "text/plain"
+        √ should ignore "text/xml"
+      when a function
+        √ should parse when truthy value returned
+        √ should work without content-type
+        √ should not invoke without a body
+    with verify option
+      √ should assert value is function
+      √ should error from verify
+      √ should allow custom codes
+      √ should allow pass-through
+      √ should 415 on unknown charset prior to verify
+    charset
+      √ should parse utf-8
+      √ should parse codepage charsets
+      √ should parse when content-length != char length
+      √ should default to utf-8
+      √ should 415 on unknown charset
+    encoding
+      √ should parse without encoding
+      √ should support identity encoding
+      √ should support gzip encoding
+      √ should support deflate encoding
+      √ should be case-insensitive
+      √ should fail on unknown encoding
+
+  bodyParser.urlencoded()
+    √ should parse x-www-form-urlencoded
+    √ should 400 when invalid content-length
+    √ should handle Content-Length: 0
+    √ should handle empty message-body
+    √ should handle duplicated middleware
+    √ should parse extended syntax
+    with extended option
+      when false
+        √ should not parse extended syntax
+        √ should parse multiple key instances
+      when true
+        √ should parse multiple key instances
+        √ should parse extended syntax
+        √ should parse parameters with dots
+        √ should parse fully-encoded extended syntax
+        √ should parse array index notation
+        √ should parse array index notation with large array
+        √ should parse array of objects syntax
+        √ should parse deep object
+    with inflate option
+      when false
+        √ should not accept content-encoding
+      when true
+        √ should accept content-encoding
+    with limit option
+      √ should 413 when over limit with Content-Length
+      √ should 413 when over limit with chunked encoding
+      √ should accept number of bytes
+      √ should not change when options altered
+      √ should not hang response
+    with parameterLimit option
+      with extended: false
+        √ should reject 0
+        √ should reject string
+        √ should 413 if over limit
+        √ should error with type = "parameters.too.many"
+        √ should work when at the limit
+        √ should work if number is floating point
+        √ should work with large limit (57ms)
+        √ should work with Infinity limit (87ms)
+      with extended: true
+        √ should reject 0
+        √ should reject string
+        √ should 413 if over limit
+        √ should error with type = "parameters.too.many"
+        √ should work when at the limit
+        √ should work if number is floating point
+        √ should work with large limit (103ms)
+        √ should work with Infinity limit (174ms)
+    with type option
+      when "application/vnd.x-www-form-urlencoded"
+        √ should parse for custom type
+        √ should ignore standard type
+      when ["urlencoded", "application/x-pairs"]
+        √ should parse "application/x-www-form-urlencoded"
+        √ should parse "application/x-pairs"
+        √ should ignore application/x-foo
+      when a function
+        √ should parse when truthy value returned
+        √ should work without content-type
+        √ should not invoke without a body
+    with verify option
+      √ should assert value if function
+      √ should error from verify
+      √ should error with type = "entity.verify.failed"
+      √ should allow custom codes
+      √ should allow custom type
+      √ should allow pass-through
+      √ should 415 on unknown charset prior to verify
+    charset
+      √ should parse utf-8
+      √ should parse when content-length != char length
+      √ should default to utf-8
+      √ should fail on unknown charset
+    encoding
+      √ should parse without encoding
+      √ should support identity encoding
+      √ should support gzip encoding
+      √ should support deflate encoding
+      √ should be case-insensitive
+      √ should fail on unknown encoding
+
+
+  231 passing (2s)
+
+=============================================================================
+Writing coverage object [\body-parser\coverage\coverage.json]
+Writing coverage reports at [\body-parser\coverage]
+=============================================================================
+
+=============================== Coverage summary ===============================
+Statements   : 99.72% ( 359/360 ), 1 ignored
+Branches     : 99.51% ( 202/203 )
+Functions    : 100% ( 42/42 )
+Lines        : 99.72% ( 358/359 )
+================================================================================
